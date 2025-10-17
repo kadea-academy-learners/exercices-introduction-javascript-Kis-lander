@@ -64,7 +64,7 @@ console.log("Transport:", ((transport / salaireMensuel) * 100).toFixed(2) + "%")
 console.log("Autres Dépenses:", ((autresDepenses / salaireMensuel) * 100).toFixed(2) + "%");
 console.log("Loisirs:", ((loisirs / salaireMensuel) * 100).toFixed(2) + "%");
 
-// 12. Vérification si les dépenses dépassent 90% du salaire
+// 12. Vérification si les dépenses dépassent 90 % du salaire
 if (totalDepenses > salaireMensuel * 0.9) {
     console.log("Dépenses trop élevées, réduisez vos charges");
 } else {
